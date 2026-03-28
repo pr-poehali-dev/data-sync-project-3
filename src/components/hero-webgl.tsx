@@ -3,7 +3,7 @@ import { useAspect, useTexture } from "@react-three/drei"
 import { useMemo, useRef, useState, useEffect } from "react"
 import * as THREE from "three"
 
-const TEXTUREMAP = { src: "https://i.postimg.cc/XYwvXN8D/img-4.png" }
+const TEXTUREMAP = { src: "https://cdn.poehali.dev/projects/8b340a01-0958-4835-81e7-3093a7fe9348/files/b539ec3f-31cd-4752-8593-253ebaf2940c.jpg" }
 const DEPTHMAP = { src: "https://i.postimg.cc/2SHKQh2q/raw-4.webp" }
 
 extend(THREE as unknown as Record<string, unknown>)
@@ -114,8 +114,8 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "Synapse AI".split(" ")
-  const subtitle = "Нейроинтерфейсы нового поколения."
+  const titleWords = "DEZINTEGRATORI".split(" ")
+  const subtitle = "Гильдия, где выживают сильнейшие."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
   const [delays, setDelays] = useState<number[]>([])
